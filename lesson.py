@@ -1,6 +1,2 @@
-a = input()
-b, c = input().split()
-s = input()
-
-print('{0} {1}'.format(a + b + c, s))
-
+N, C = list(map(int, input().split()))
+sushi = list(list(map(int, input().split())) for _ in range(N))
