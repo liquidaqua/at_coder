@@ -1,5 +1,6 @@
 N, A, B = list(map(int, input().split(' ')))
 
+
 num = format(A ^ B, 'b').count('1')
 if num > 2**N - 1 or num % 2 == 0:
     print('NO')
